@@ -1,0 +1,387 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+wheelhouse/
+MANIFEST
+*.manifest
+*.spec
+
+# Distribution metadata
+.installed.cfg
+*.whl
+
+
+# ============================================================
+# Virtual Environments
+# ============================================================
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtualenv
+.venv*/
+venv*/
+
+
+# ============================================================
+# Environment Variables / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+!.env.template
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# API keys / credentials
+secrets/
+credentials/
+secrets.json
+credentials.json
+service-account.json
+
+
+# ============================================================
+# IDEs / Editors
+# ============================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.#*
+
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Jupyter temporary files
+.jupyter/
+
+
+# ============================================================
+# Testing
+# ============================================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.coverage.xml
+*.cover
+*.py,cover
+
+# unittest
+test-results/
+junit.xml
+
+# Hypothesis
+.hypothesis/
+
+
+# ============================================================
+# Type Checking / Linters
+# ============================================================
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+.pyre/
+.pytype/
+
+.ruff_cache/
+
+# Pylint
+.pylint.d/
+
+# Pyright
+.pyright/
+
+
+# ============================================================
+# Documentation
+# ============================================================
+
+docs/_build/
+
+
+# ============================================================
+# OS Files
+# ============================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+.Trash-*
+
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+logs/
+log/
+*.out
+
+
+# ============================================================
+# Temporary Files
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+*.swo
+
+tmp/
+temp/
+.cache/
+
+
+# ============================================================
+# Data Science / Machine Learning
+# ============================================================
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.gguf
+*.ggml
+*.h5
+*.hdf5
+*.tflite
+*.pb
+*.pkl
+*.pickle
+*.joblib
+
+# Hugging Face cache
+.cache/
+huggingface/
+transformers/
+models/
+
+# ML experiment tracking
+wandb/
+mlruns/
+runs/
+lightning_logs/
+checkpoints/
+
+# TensorBoard
+.tensorboard/
+
+
+# ============================================================
+# Datasets
+# ============================================================
+
+# Uncomment these if datasets should NOT be committed
+# data/
+# datasets/
+# *.csv
+# *.tsv
+# *.json
+
+# Large common data formats
+*.parquet
+*.feather
+*.arrow
+*.sqlite
+*.db
+
+
+# ============================================================
+# Generated Images / Videos / Audio
+# ============================================================
+
+# Uncomment if these are generated/downloaded files
+# generated/
+# outputs/
+# results/
+
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Image caches / generated images
+*.tiff
+*.tif
+
+
+# ============================================================
+# Streamlit
+# ============================================================
+
+.streamlit/secrets.toml
+
+
+# ============================================================
+# Flask / Django
+# ============================================================
+
+*.sqlite3
+db.sqlite3
+instance/
+
+# Django
+staticfiles/
+media/
+
+
+# ============================================================
+# Node / Frontend (if your project ever has one)
+# ============================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.npm/
+.yarn/
+.pnpm-store/
+
+.next/
+.nuxt/
+dist/
+
+
+# ============================================================
+# Docker
+# ============================================================
+
+*.tar
+
+
+# ============================================================
+# Local configuration
+# ============================================================
+
+*.local
+config.local.*
+settings.local.*
+
+
+# ============================================================
+# Personal / Development Files
+# ============================================================
+
+notes/
+scratch/
+local/
+private/
+
+TODO.local
+README.local.md
+
+
+# ============================================================
+# Coverage / Profiling
+# ============================================================
+
+.prof
+*.prof
+.pytest_cache/
+htmlcov/
+
+
+# ============================================================
+# OS / File Explorer leftovers
+# ============================================================
+
+*.lnk
+*.url
+
+
+# ============================================================
+# Large archives
+# ============================================================
+
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar.bz2
+*.iso
